@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243CBF1E2538AA3D0065B332 /* The Verve - Bitter Sweet Symphony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 243CBF1D2538AA3D0065B332 /* The Verve - Bitter Sweet Symphony.mp3 */; };
+		243CBF202538AA450065B332 /* RAC - Never Let You Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 243CBF1F2538AA450065B332 /* RAC - Never Let You Go.mp3 */; };
+		243CBF222538AA4D0065B332 /* Scarlet's theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 243CBF212538AA4D0065B332 /* Scarlet's theme.mp3 */; };
+		243CBF242538AA510065B332 /* Elton John - Rocket Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 243CBF232538AA510065B332 /* Elton John - Rocket Man.mp3 */; };
+		243CBF262538AA570065B332 /* Heavenly Star_ by Genki Rockets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 243CBF252538AA570065B332 /* Heavenly Star_ by Genki Rockets.mp3 */; };
 		24A6DA2725386E6900FD27DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6DA2625386E6900FD27DC /* AppDelegate.swift */; };
 		24A6DA2925386E6900FD27DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6DA2825386E6900FD27DC /* SceneDelegate.swift */; };
 		24A6DA2B25386E6900FD27DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6DA2A25386E6900FD27DC /* ViewController.swift */; };
 		24A6DA2E25386E6900FD27DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A6DA2C25386E6900FD27DC /* Main.storyboard */; };
 		24A6DA3025386E6A00FD27DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A6DA2F25386E6A00FD27DC /* Assets.xcassets */; };
 		24A6DA3325386E6A00FD27DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A6DA3125386E6A00FD27DC /* LaunchScreen.storyboard */; };
+		24A6DA3B25386FA500FD27DC /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6DA3A25386FA500FD27DC /* LyricsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243CBF1D2538AA3D0065B332 /* The Verve - Bitter Sweet Symphony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Verve - Bitter Sweet Symphony.mp3"; sourceTree = "<group>"; };
+		243CBF1F2538AA450065B332 /* RAC - Never Let You Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "RAC - Never Let You Go.mp3"; sourceTree = "<group>"; };
+		243CBF212538AA4D0065B332 /* Scarlet's theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Scarlet's theme.mp3"; sourceTree = "<group>"; };
+		243CBF232538AA510065B332 /* Elton John - Rocket Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elton John - Rocket Man.mp3"; sourceTree = "<group>"; };
+		243CBF252538AA570065B332 /* Heavenly Star_ by Genki Rockets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heavenly Star_ by Genki Rockets.mp3"; sourceTree = "<group>"; };
 		24A6DA2325386E6900FD27DC /* songPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A6DA2625386E6900FD27DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24A6DA2825386E6900FD27DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		24A6DA2F25386E6A00FD27DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24A6DA3225386E6A00FD27DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24A6DA3425386E6A00FD27DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24A6DA3A25386FA500FD27DC /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,27 @@
 			children = (
 				24A6DA2625386E6900FD27DC /* AppDelegate.swift */,
 				24A6DA2825386E6900FD27DC /* SceneDelegate.swift */,
-				24A6DA2A25386E6900FD27DC /* ViewController.swift */,
 				24A6DA2C25386E6900FD27DC /* Main.storyboard */,
+				24A6DA2A25386E6900FD27DC /* ViewController.swift */,
+				24A6DA3A25386FA500FD27DC /* LyricsViewController.swift */,
+				24A6DA3C2538700600FD27DC /* Song */,
 				24A6DA2F25386E6A00FD27DC /* Assets.xcassets */,
 				24A6DA3125386E6A00FD27DC /* LaunchScreen.storyboard */,
 				24A6DA3425386E6A00FD27DC /* Info.plist */,
 			);
 			path = songPlayerDemo;
+			sourceTree = "<group>";
+		};
+		24A6DA3C2538700600FD27DC /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				243CBF1D2538AA3D0065B332 /* The Verve - Bitter Sweet Symphony.mp3 */,
+				243CBF1F2538AA450065B332 /* RAC - Never Let You Go.mp3 */,
+				243CBF252538AA570065B332 /* Heavenly Star_ by Genki Rockets.mp3 */,
+				243CBF232538AA510065B332 /* Elton John - Rocket Man.mp3 */,
+				243CBF212538AA4D0065B332 /* Scarlet's theme.mp3 */,
+			);
+			path = Song;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +153,11 @@
 			files = (
 				24A6DA3325386E6A00FD27DC /* LaunchScreen.storyboard in Resources */,
 				24A6DA3025386E6A00FD27DC /* Assets.xcassets in Resources */,
+				243CBF262538AA570065B332 /* Heavenly Star_ by Genki Rockets.mp3 in Resources */,
+				243CBF1E2538AA3D0065B332 /* The Verve - Bitter Sweet Symphony.mp3 in Resources */,
+				243CBF202538AA450065B332 /* RAC - Never Let You Go.mp3 in Resources */,
+				243CBF222538AA4D0065B332 /* Scarlet's theme.mp3 in Resources */,
+				243CBF242538AA510065B332 /* Elton John - Rocket Man.mp3 in Resources */,
 				24A6DA2E25386E6900FD27DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +171,7 @@
 			files = (
 				24A6DA2B25386E6900FD27DC /* ViewController.swift in Sources */,
 				24A6DA2725386E6900FD27DC /* AppDelegate.swift in Sources */,
+				24A6DA3B25386FA500FD27DC /* LyricsViewController.swift in Sources */,
 				24A6DA2925386E6900FD27DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
